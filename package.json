@@ -1,0 +1,28 @@
+{
+  "name": "sentraai",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000S\u0000e\u0000n\u0000t\u0000r\u0000a\u0000A\u0000I\u0000\r\u0000 \u0000",
+  
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.48.0",
+    "@langchain/core": "^0.3.74",
+    "@langchain/langgraph": "^0.4.9",
+    "@langchain/ollama": "^0.2.4",
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.3.2",
+    "mongoose": "^8.18.0",
+    "nodemon": "^3.1.10",
+    "uuid": "^12.0.0"
+  }
+}
